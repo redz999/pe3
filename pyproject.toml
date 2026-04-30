@@ -9,6 +9,7 @@ dependencies = [
 
 [project.scripts]
 pe3-generate = "pe3_generator.cli:main"
+pe3-gui = "pe3_generator.gui:main"
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]
